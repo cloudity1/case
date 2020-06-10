@@ -6,3 +6,12 @@
 body {
   padding-top: 56px;
 }
+
+.form-table {
+  width: 400px;
+}
+
+.form-table-row {
+  display: flex;
+  justify-content: space-between;
+}
