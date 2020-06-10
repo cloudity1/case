@@ -91,58 +91,31 @@
 <!--  value="dev+hrdemo@cloudity.pl">                                         -->
 <!--  ----------------------------------------------------------------------  -->
 
-<div class="form-table">
+<label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
 
-<div class="form-table-row">
-  <label for="name">Contact Name</label>
-  <input  id="name" maxlength="80" name="name" size="20" type="text" />
-</div>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<div class="form-table-row">
-  <label for="email">Email</label>
-  <input  id="email" maxlength="80" name="email" size="20" type="text" />
-</div>
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
 
-<div class="form-table-row">
-  <label for="phone">Phone</label>
-  <input  id="phone" maxlength="40" name="phone" size="20" type="text" />
-</div>
+<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
 
-<div class="form-table-row">
-  <label for="subject">Subject</label>
-  <input  id="subject" maxlength="80" name="subject" size="20" type="text" />
-</div>
+<label for="type">Type</label><select  id="type" name="type"><option value="">--None--</option><option value="Urlop">Urlop</option>
+<option value="Odnowienie Umowy">Odnowienie Umowy</option>
+<option value="Udostępnienie teczki">Udostępnienie teczki</option>
+<option value="Podanie O Przeniesienie">Podanie O Przeniesienie</option>
+<option value="Skarga">Skarga</option>
+</select><br>
 
-<div class="form-table-row">
-  <label for="type">Type</label>
+  <label>Podtyp</label><select  id="00N2X000008z3u0" name="00N2X000008z3u0" title="Podtyp"><option value="">--None--</option><option value="Rodzicielski">Rodzicielski</option>
+<option value="Na Żądanie">Na Żądanie</option>
+<option value="Wypoczynkowy">Wypoczynkowy</option>
+<option value="Specjalny">Specjalny</option>
+</select><br>
 
-  <select  id="type" name="type"><option value="">--None--</option><option value="Urlop">Urlop</option>
-  <option value="Odnowienie Umowy">Odnowienie Umowy</option>
-  <option value="Udostępnienie teczki">Udostępnienie teczki</option>
-  <option value="Podanie O Przeniesienie">Podanie O Przeniesienie</option>
-  <option value="Skarga">Skarga</option>
-  </select>
-</div>
-
-<div class="form-table-row">
-  <label>Podtyp</label>
-  <select  id="00N2X000008z3u0" name="00N2X000008z3u0" title="Podtyp"><option value="">--None--</option><option value="Rodzicielski">Rodzicielski</option>
-    <option value="Na Żądanie">Na Żądanie</option>
-    <option value="Wypoczynkowy">Wypoczynkowy</option>
-    <option value="Specjalny">Specjalny</option>
-  </select>
-</div>
-
-<input type="hidden" id="origin" name="origin" value="Web" /><br>
-
-<div class="form-table-row">
-  <label>Szczegóły</label>
-  <select  id="00N2X000008z3uA" name="00N2X000008z3uA" title="Szczegóły"><option value="">--None--</option><option value="Tacierzyński">Tacierzyński</option>
-  <option value="Macierzyński">Macierzyński</option>
-  </select>
-</div>
-
-</div>
+  <input type="hidden" id="origin" name="origin" value="Web" /><br>
+  <label>Szczegóły</label><select  id="00N2X000008z3uA" name="00N2X000008z3uA" title="Szczegóły"><option value="">--None--</option><option value="Tacierzyński">Tacierzyński</option>
+<option value="Macierzyński">Macierzyński</option>
+</select><br>
 
 <input type="submit" name="submit">
 
