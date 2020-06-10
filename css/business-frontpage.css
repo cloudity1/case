@@ -19,6 +19,10 @@ body {
   border-bottom: 1px solid black;
 }
 
+.form-table-row br {
+ display: none; 
+}
+
 .form-table-row input,
 .form-table-row select {
   width: 200px;
