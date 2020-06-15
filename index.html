@@ -107,15 +107,14 @@
   
   <div class="form-table-row">
     <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+    <input id="name" name="Maciej Fojt" />
   </div>
+  
   
   <div class="form-table-row">
     <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    <input id="email" name="maciej.fojt@cloudity.pl" />
   </div>
-    
-  <div class="form-table-row">
-    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
- </div>
   
     <div class="form-table-row">
     <label for="type">Type</label><select  id="type" name="type"><option value="">--None--</option><option value="Urlop">Urlop</option>
@@ -139,6 +138,21 @@
   <option value="Macierzyński">Macierzyński</option>
   </select><br>
   </div>
+  
+  <div class="form-table-row">
+    <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+  </div>
+  
+  <div class="form-table-row">
+  <label for="description">Description</label><textarea name="description"></textarea><br>
+  </div>
+  
+  <label for="priority">Priority</label><select  id="priority" name="priority"><option value="">--None--</option><option value="High">High</option>
+<option value="Medium">Medium</option>
+<option value="Low">Low</option>
+  <input type=hidden id="priority" name="priority" value="Medium" />
+</select><br>
+  
 </div>
 
 <input type="submit" name="submit">
